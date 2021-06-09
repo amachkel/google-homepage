@@ -29,3 +29,8 @@ li {
 #apps-icon {
   max-width: 5%;
 }
+footer {
+  text-align: center;
+  font-size: 13px;
+  position: absolute;
+}
