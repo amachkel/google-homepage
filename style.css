@@ -6,7 +6,13 @@
   text-decoration: none;
   color: #5f6368;
 }
-
+a:link {
+  text-decoration: none;
+  color: #222;
+}
+a:hover {
+  text-decoration: underline;
+}
 #nav-bar {
   font-size: 13px;
   font-color: #5f6368;
