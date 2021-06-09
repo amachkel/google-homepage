@@ -30,6 +30,9 @@ li {
   padding: 8px;
   display: inline;
 }
+#header-img {
+  margin: 4rem 0 0 1rem;
+}
 
 #apps-icon {
   max-width: 5%;
