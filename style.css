@@ -1,11 +1,25 @@
 #page-wrapper {
-    font-family: arial, sans serif;
+  font-family: arial, sans serif;
+  text-align: center;
+}
+#page-wrapper link {
+  text-decoration: none;
+  color: #5f6368;
 }
 
 #nav-bar {
-    font-size: 13px;
-    font-color: #5f6368;
+  font-size: 13px;
+  font-color: #5f6368;
+}
+li {
+  list-style-type: none;
+  margin: 8px;
+  padding: 8px;
+  float: left;
+  display: block;
+}
+
 }
 #apps-icon {
-    max-width: 10%;
+  max-width: 10%;
 }
