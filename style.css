@@ -20,14 +20,12 @@ a:hover {
 }
 #nav-bar {
   font-size: 13px;
-  font-color: #5f6368;
-  display: flex;
-  flex-direction: column;
+  color: #5f6368;
 }
 li {
   list-style-type: none;
   margin: 8px;
-  padding: 8px;
+  /* padding: 8px; */
   display: inline;
 }
 #header-img {
@@ -35,8 +33,9 @@ li {
 }
 
 #apps-icon {
-  max-width: 5%;
+  width: 20px;
 }
+
 .search {
   width: 50%;
   padding: 10px 20px;
@@ -51,3 +50,24 @@ footer {
   width: 100%;
   height: 2.5rem;
 }
+
+#nav-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#nav-bar li {
+  float: left;
+}
+
+#nav-bar li a {
+  display: block;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#nav-bar .nav-right{float:right;}
+#nav-bar .nav-button {background:cornflowerblue; color:#fff; padding:15px; margin:3px; border-radius:5px;}
