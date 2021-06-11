@@ -14,16 +14,21 @@ a:link {
 a:hover {
   text-decoration: underline;
 }
-#nav-bar .nav-link {
+.link {
   font-size: 13px;
-
+  flex: 1;
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
-  border: 1px solid black;
+
+  /* border: 1px solid black; */
   margin: 0;
   padding: 0;
 }
+
+.link-2 {
+  padding-right: 55rem;
+}
+
 .link-6 {
   background-color: #4285f4;
   color: #fff;
@@ -50,11 +55,16 @@ li {
   padding: 10px 20px;
   margin: 20px;
   border-radius: 20px;
+  color: #5f6368;
+  border: ;
+}
+#form-group {
+  color: #5f6368;
 }
 #footer {
   display: flex;
-  justify-content: flex-start;
-
+  justify-content: center;
+  font-family: arial, sans serif;
   font-size: 13px;
   position: absolute;
   bottom: 0;
@@ -63,4 +73,12 @@ li {
   padding: 0 0 0.5rem 0;
   background-color: #f2f2f2;
   border: 1px solid #e4e4e4;
+  color: #5f6368;
+}
+.footer {
+  /* display: flex;
+  flex: 1; */
+  justify-content: flex-start;
+  border: 1px solid black;
+  /* width: 100vw; */
 }
