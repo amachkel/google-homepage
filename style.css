@@ -1,20 +1,17 @@
 #page-container {
   position: relative;
   min-height: 100vh;
-}
-#page-wrapper {
   font-family: arial, sans serif;
   text-align: center;
-  padding-bottom: 2.5rem;
+  padding-bottom: auto;
 }
-#page-wrapper link {
-  text-decoration: none;
-  color: #5f6368;
-}
+
 a:link {
   text-decoration: none;
   color: #222;
+  width: 33%;
 }
+
 a:hover {
   text-decoration: underline;
 }
@@ -22,10 +19,11 @@ a:hover {
   font-size: 13px;
   font-color: #5f6368;
   display: flex;
-  justify-content: baseline;
-  align-items: flex-start;
-
-  margin: 0 0 20px 0;
+  justify-content: first baseline;
+  align-items: center;
+  border: 1px solid black;
+  margin: 0;
+  padding: 0;
 }
 .link-6 {
   background-color: #4285f4;
@@ -33,8 +31,11 @@ a:hover {
   font-weight: bold;
   border: 1px solid #4285f4;
   padding: 8px 12px;
-  margin: 20px;
+  margin: 0px;
   border-radius: 2px;
+}
+.link-2 {
+  padding: 0 50vh 0 0;
 }
 
 li {
