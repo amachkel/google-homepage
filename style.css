@@ -9,18 +9,17 @@
 a:link {
   text-decoration: none;
   color: #222;
-  width: 33%;
 }
 
 a:hover {
   text-decoration: underline;
 }
-#nav-bar {
+#nav-bar .nav-link {
   font-size: 13px;
-  font-color: #5f6368;
+
   display: flex;
-  justify-content: first baseline;
-  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
   border: 1px solid black;
   margin: 0;
   padding: 0;
@@ -34,15 +33,10 @@ a:hover {
   margin: 0px;
   border-radius: 2px;
 }
-.link-2 {
-  padding: 0 50vh 0 0;
-}
-
 li {
   list-style-type: none;
   margin: 8px;
   padding: 8px;
-  display: inline;
 }
 #header-img {
   margin: 4rem 0 0 1rem;
@@ -57,13 +51,16 @@ li {
   margin: 20px;
   border-radius: 20px;
 }
-footer {
-  text-align: center;
+#footer {
+  display: flex;
+  justify-content: flex-start;
+
   font-size: 13px;
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 100vw;
   height: 2.5rem;
-  padding: 0 0 1rem 0;
+  padding: 0 0 0.5rem 0;
   background-color: #f2f2f2;
+  border: 1px solid #e4e4e4;
 }
