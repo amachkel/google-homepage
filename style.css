@@ -22,18 +22,19 @@ a:hover {
   font-size: 13px;
   font-color: #5f6368;
   display: flex;
-  align-items: center;
-  width: 100%;
-  padding: 0;
+  justify-content: baseline;
+  align-items: flex-start;
+
   margin: 0 0 20px 0;
 }
-.nav-button {
+.link-6 {
   background-color: #4285f4;
   color: #fff;
   font-weight: bold;
   border: 1px solid #4285f4;
   padding: 8px 12px;
-  border-radius: 4px;
+  margin: 20px;
+  border-radius: 2px;
 }
 
 li {
@@ -47,7 +48,7 @@ li {
 }
 
 #apps-icon {
-  max-width: 5%;
+  max-width: 25px;
 }
 .search {
   width: 50%;
