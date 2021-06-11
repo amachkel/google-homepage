@@ -14,14 +14,18 @@
 }
 .nav-left {
   float: left;
-  border: 1px solid;
+  height: 33px;
+  line-height: 33px;
 }
 .about {
   padding-right: 10px;
 }
 .nav-right {
   float: right;
-  border: 1px solid;
+}
+.nav-right .nav-items {
+  display: flex;
+  align-items: center;
 }
 a:link {
   text-decoration: none;
@@ -43,7 +47,11 @@ a:hover {
 }
 
 #header-img {
-  margin: 4rem 0 0 1rem;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #apps-icon {
@@ -55,31 +63,40 @@ a:hover {
   margin: 20px;
   border-radius: 20px;
   color: #5f6368;
-  border: ;
 }
 #form-group {
   color: #5f6368;
 }
-#footer {
+footer {
+  width: 100%;
+}
+#footer-nav {
+  width: 100%;
   display: flex;
-  /* flex: 1; */
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: space-between;
   font-family: arial, sans serif;
   font-size: 13px;
   position: absolute;
   bottom: 0;
-  width: 100vw;
-
-  height: 2.5rem;
-  /* padding: 0 0 0.5rem 0; */
+  left: 0;
   background-color: #f2f2f2;
   border: 1px solid #e4e4e4;
   color: #5f6368;
+  padding: 15px;
+  float: left;
+  box-sizing: border-box;
 }
-.footer {
-  /* display: flex;
-  flex: 1; */
-  /* justify-content: flex-start; */
-  border: 1px solid black;
-  /* width: 100vw; */
+
+.footer-left,
+.footer-right {
+  display: flex;
+}
+.footer-left li,
+.footer-right li {
+  margin: 0px 5px;
+}
+
+ul {
+  list-style: none;
 }
