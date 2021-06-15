@@ -50,12 +50,23 @@ a:hover {
   margin: 0 auto;
   margin-top: 30px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-
+#main {
+}
 #apps-icon {
   max-width: 25px;
+}
+.submit {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+}
+.submit:hover {
+  border: 0.1px solid #dcdcdc;
 }
 .search {
   width: 60%;
@@ -65,7 +76,7 @@ a:hover {
   border-radius: 20px;
   color: #5f6368;
 }
-.search: hover {
+.search:hover {
   box-shadow: 1px 1px 8px 1px #dcdcdc;
 }
 .search:focus-within {
@@ -80,6 +91,12 @@ a:hover {
   position: relative;
   top: 6px;
   right: 52px;
+}
+.search-icon {
+  height: 15px;
+  position: relative;
+  top: 5px;
+  right: 400px;
 }
 footer {
   width: 100%;
