@@ -64,13 +64,14 @@ a:hover {
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
+  background-color: #f8f9fa;
 }
 .submit:hover {
   border: 0.1px solid #dcdcdc;
 }
 .search {
   width: 60%;
-  padding: 10px 20px;
+  padding: 10px 30px;
   margin: 20px;
   border: 0.1px solid #dcdcdc;
   border-radius: 20px;
