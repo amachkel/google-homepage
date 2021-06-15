@@ -78,8 +78,8 @@ a:hover {
 .voice {
   height: 20px;
   position: relative;
-  top: 10px;
-  left: 10px;
+  top: 6px;
+  right: 52px;
 }
 footer {
   width: 100%;
