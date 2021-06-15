@@ -55,6 +55,7 @@ a:hover {
   justify-content: center;
 }
 #main {
+  margin: 120px auto;
 }
 #apps-icon {
   max-width: 25px;
