@@ -5,6 +5,9 @@
   text-align: center;
   padding-bottom: auto;
 }
+body {
+  margin: 0%;
+}
 .box {
   padding: 5px;
   font-size: 13px;
@@ -25,7 +28,7 @@
 }
 .nav-right .nav-items {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 a:link {
   text-decoration: none;
@@ -61,7 +64,7 @@ a:hover {
   max-width: 25px;
 }
 .submit {
-  border: none;
+  border: 0.1px solid transparent;
   border-radius: 5px;
   padding: 10px;
   margin: 5px;
@@ -117,6 +120,7 @@ footer {
   border: 1px solid #e4e4e4;
   color: #5f6368;
   padding: 15px;
+  margin: 0%;
   float: left;
   box-sizing: border-box;
 }
