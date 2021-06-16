@@ -25,6 +25,8 @@ body {
 }
 .nav-right {
   float: right;
+  display: flex;
+  align-items: center;
 }
 .nav-right .nav-items {
   display: flex;
@@ -98,10 +100,10 @@ a:hover {
   right: 52px;
 }
 .search-icon {
-  height: 15px;
+  height: 16px;
   position: relative;
   top: 5px;
-  right: 400px;
+  left: 50px;
 }
 footer {
   width: 100%;
